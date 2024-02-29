@@ -2,7 +2,8 @@ Servlet Config
 inside Web.xml-->inside Servlet tag create init-param
 and provide the param-name===>any name we can provide
 param-value=====>database url
-<servlet>
+one object for every servlet is created by webcontainer
+	<servlet>
 		<servlet-name>B</servlet-name>
 		<servlet-class>com.jsp.Servlet1</servlet-class>
 
