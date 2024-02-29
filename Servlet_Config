@@ -1,0 +1,14 @@
+Servlet Config
+inside Web.xml-->inside Servlet tag create init-param
+and provide the param-name===>any name we can provide
+param-value=====>database url
+<servlet>
+		<servlet-name>B</servlet-name>
+		<servlet-class>com.jsp.Servlet1</servlet-class>
+
+
+		<init-param>
+			<param-name>url</param-name>
+			<param-value>jdbc:mysql://localhost:3306/university</param-value>
+		</init-param>
+	</servlet>
