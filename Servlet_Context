@@ -1,6 +1,7 @@
 Inside Web.xml File
 param-name====>We can provide any name for it
 param-value=====>We have to provoide database url
+only one object is created by webcontainer for whole project
 <context-param>
 		<param-name>urls</param-name>
 		<param-value>jdbc:mysql://localhost:3306/school</param-value>
